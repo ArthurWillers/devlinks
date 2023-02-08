@@ -156,9 +156,26 @@ ul li a:hover {
 }
 
 footer {
-  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  gap: 5px;
+
+  margin-top: 24px;
+
+  padding: 18px 0;
   text-align: center;
   font-size: 14px;
+  
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  border: 1px solid var(--stroke-color);
+
+    backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  
 }
 
 /*media queries*/
